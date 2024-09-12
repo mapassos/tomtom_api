@@ -16,8 +16,6 @@ def main():
 
     cities_dict = {}
     cities_json = {}
-    
-    input('press any key')
 
     for city in BRA_cities:
         print(city.replace('-', ' ').title())
